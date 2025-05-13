@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="authore" content="Md Sabit" >
+    <meta name="description" content="This page contain recipes">
+    <title> Odin-recipes</title>
+    <link rel="icon" href="download.png" type="image/png">
+    <link rel="Stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>Odin Recipes</h1>
+
+  
+  <figure>
+    <img
+      src="https://www.allrecipes.com/thmb/ZTwSrMHtMgan7A-NSkUEOMfAyao=/2000x666/filters:no_upscale():max_bytes(150000):strip_icc():focal(1499x0:1501x2):format(webp)/ar-breakfast-club-landing-page-hero-652-MAIN-V1-HP-3x1-84a22b0b46d74ae9b72d3cdd1f0d9b00.jpg"
+      alt="Breakfast club landing page image"
+      height="300"
+      width="400"
+    >
+      
+    </figure>
+
+    <p>
+      &nbsp;&nbsp;<em
+        >We ask our Allstars, a froup of enthusiastic home coock just like you,
+        to give us their favorite drink recipes and this are there
+        favorites.</em
+      >
+    </p>
+    <hr>
+    <main>
+    <ul>
+      <li>
+        <strong>
+          <a href="Orange_caramel_protein_shakr.htm">Orange Caramel Protein Shake</a>
+      </strong
+        >
+        <br>
+        <br>
+        <figure><img
+          src="https://www.allrecipes.com/thmb/Jv8W8fsuMBZItPDQMcPrjfBXA94=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-278529-orange-creamsicle-protein-shake-VAT-4x3-3c3996d7410c41f4b668a15197bd952c.jpg"
+          alt="Orange caramel protein shake"
+          height="100"
+          width="100"
+        ><figcaption>
+          Orange caraeml shake
+        </figcaption>
+        </figure>
+        
+
+        
+        <br>
+        <br>
+      </li>
+
+      <li>
+        <strong
+          ><a href="Chef_John's_Chocolate_Decadence.html">
+            Chef jhon's chocolate decandence</a>
+          </strong
+        >
+        <br>
+        <br>
+        <figure>
+        <img
+          src="https://www.allrecipes.com/thmb/5uABEuOX3P5pVmFoYmNIqZRzW-8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7625932_ChefJohnsChocolateDecadence4x3-21cbfe6e5e19418abf6e731b7c57c248.jpg"
+          alt="dessert"
+          height="100"
+          width="150"
+        >
+        <figcaption>
+          Chocolate decandence
+        </figcaption>
+        </figure>
+        <br >
+
+        
+      </li>
+    </ul>
+    <hr>
+    <section>
+      <h2>Contact me</h2>
+      <p>I'd really like to hear from you</p>
+      <form action="http://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+       <p>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName" placeholder="first name" autocomplete="on" required autofocus>
+        </p>
+       <p>
+         <label for="LastName">Last Name:</label>
+         <input type="text" name="LastName" id="LastName" placeholder="Last name" autocomplete="on" required >
+        </p>
+        <p>
+         <label for="password">Password:</label>
+         <input type="password" name="password" id="password" placeholder="your secret"  required >
+       </p>
+       <p>
+         <label for="phone">Phone:</label>
+         <input type="tel" name="phone" id="phone" placeholder="00000-00000" Pattern="[0-9]{10}" required >
+       </p>
+       <!-- <p>
+        <label for="dish">Choose dish:</label>
+        <select name="dish" id="dish">
+          <optgroup label="Dish">
+            <option value="Orange caramel protein shake">Orange caramal protein shake</option>
+            <Option value="Chocolate Decadence">Chocolate Decandence</Option>
+           </optgroup>
+        </select>
+        </p>  -->
+        <p>
+         <label for="dish">Choose dish:</label>
+         <input type="text" name="dish" id="dish" list="dish-list">
+         <datalist id="dish-list">
+          <option value="Orange caramel protein shake">
+          <option value="Chocolate Decadence">
+          </datalist>
+        </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <Legend>What is your favorite dish</Legend>
+          <p>
+            <input type="radio" name="dish" id="Chocolate_Decadence" value="Chocolate_Decandence">
+            <label for="Chocolate_Decadence">Chocolate Decandence</label>
+          </p>
+           <p>
+            <input type="radio" name="dish" id="Orange_caramel_protein_shake" value="Orange_caramel_protein_shake">
+            <label for="Orange_caramel_protein_shake">Orange caramel protein shake</label>
+          </p>
+          <p>
+            <input type="radio" name="dish" id="other" value="other">
+            <label for="other">other</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="message">Your valuble word:</label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave your feedback here"></textarea>
+        <br> 
+        <button type="submit">Submit</button>
+        <br><br>
+        <button type="reset">Reset</button>
+        </fieldset>
+
+        
+
+      </form>
+    </section>
+    </main>
+  </body>
+</html>
